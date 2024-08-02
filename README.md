@@ -33,6 +33,8 @@
 + Preparação para Receber Dados: O código Arduino precisa estar pronto e em execução para processar os dados enviados pelo Python. Se você tentar enviar dados antes de carregar o código Arduino, o Arduino não terá a lógica necessária para lidar com os dados recebidos.
 + Comunicação Serial Estável: Carregar o código Arduino primeiro garante que a comunicação serial esteja configurada corretamente e que o Arduino esteja pronto para aceitar e processar as mensagens enviadas do Python.
 
+![bandicam 2024-08-02 06-06-28-757](https://github.com/user-attachments/assets/ff8078b1-8b31-4a34-a228-ef9434d51983)
+
 ```cpp
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
