@@ -23,3 +23,6 @@
 + Display LCD 16X2 I2C
 + Protoboard (Opcional)
 + Fios/Jump's
+
+# 1º Como montar o circuito com o display junto ao Arduino.
+![bandicam 2024-08-02 03-58-34-168](https://github.com/user-attachments/assets/4ee48fbe-4c60-4998-a03d-42863b6af592)
