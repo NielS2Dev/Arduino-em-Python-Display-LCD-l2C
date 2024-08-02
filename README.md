@@ -98,4 +98,4 @@ if __name__ == "__main__":
 ```
 ![Imagem 1](https://github.com/user-attachments/assets/402a637f-1c8b-4635-a8ef-86b9dedf0c5b)
 
-
+![Vídeo-sem-título-‐-Feito-com-o-Clipchamp](https://github.com/user-attachments/assets/7e552bd3-8613-49a0-ba36-0e0a113c5ae7)
