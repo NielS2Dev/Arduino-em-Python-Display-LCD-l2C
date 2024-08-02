@@ -32,3 +32,37 @@
 + Configuração do Hardware: O código Arduino configura o display LCD e a comunicação serial. Sem essa configuração, o Arduino não saberá como interagir com o display e não estará preparado para receber dados da comunicação serial.
 + Preparação para Receber Dados: O código Arduino precisa estar pronto e em execução para processar os dados enviados pelo Python. Se você tentar enviar dados antes de carregar o código Arduino, o Arduino não terá a lógica necessária para lidar com os dados recebidos.
 + Comunicação Serial Estável: Carregar o código Arduino primeiro garante que a comunicação serial esteja configurada corretamente e que o Arduino esteja pronto para aceitar e processar as mensagens enviadas do Python.
+
+```cpp
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+void setup() {
+  lcd.init();
+  lcd.backlight();
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    String message = Serial.readStringUntil('\n');
+    lcd.clear();
+    displayMessage(message);
+  }
+}
+
+void displayMessage(String message) {
+  lcd.setCursor(0, 0);
+  if (message.length() > 16) {
+    lcd.print(message.substring(0, 16));
+    lcd.setCursor(0, 1);
+    lcd.print(message.substring(16));
+  } else {
+    lcd.print(message);
+  }
+}
+```
+
+
