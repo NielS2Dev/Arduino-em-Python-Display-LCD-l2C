@@ -15,3 +15,9 @@
     </p>
 </body>
 </html>
+
+# Itens Utilizados.
++ Arduino Uno R3
++ Display LCD 16X2 I2C
++ Protoboard (Opcional)
++ Fios/Jump's
