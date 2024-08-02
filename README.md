@@ -16,6 +16,8 @@
 </body>
 </html>
 
++ NielS2🥰🥰🥰
+
 > Status: Developing. O texto pode conter alguns erros e principalmente no código, como alguns vícios, pois sou novato. Mas, em geral, o projetinho está funcional! xD ⚠️⚠️⚠️
 
 # Itens Utilizados.
@@ -66,5 +68,7 @@ void displayMessage(String message) {
   }
 }
 ```
+
+# 3º Upar o código Python para o funcionamento do "Sistema".
 
 
