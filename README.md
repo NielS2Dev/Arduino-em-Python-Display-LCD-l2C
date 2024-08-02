@@ -16,6 +16,8 @@
 </body>
 </html>
 
+> Status: Developing. O texto pode conter alguns erros e principalmente no código, como alguns vícios, pois sou novato. Mas, em geral, o projetinho está funcional! xD ⚠️⚠️⚠️
+
 # Itens Utilizados.
 + Arduino Uno R3
 + Display LCD 16X2 I2C
