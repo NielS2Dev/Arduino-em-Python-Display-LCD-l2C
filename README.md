@@ -30,7 +30,7 @@
 ![bandicam 2024-08-02 03-58-34-168](https://github.com/user-attachments/assets/4ee48fbe-4c60-4998-a03d-42863b6af592)
 
 # 2º Carregar código no arduino (Primeiramente pela IDE do arduino).
-### Por Que Carregar o Código Arduino Primeiro?
+### Por Que Carregar o Código na IDE do Arduino Primeiro?
 + Configuração do Hardware: O código Arduino configura o display LCD e a comunicação serial. Sem essa configuração, o Arduino não saberá como interagir com o display e não estará preparado para receber dados da comunicação serial.
 + Preparação para Receber Dados: O código Arduino precisa estar pronto e em execução para processar os dados enviados pelo Python. Se você tentar enviar dados antes de carregar o código Arduino, o Arduino não terá a lógica necessária para lidar com os dados recebidos.
 + Comunicação Serial Estável: Carregar o código Arduino primeiro garante que a comunicação serial esteja configurada corretamente e que o Arduino esteja pronto para aceitar e processar as mensagens enviadas do Python.
